@@ -1,0 +1,22 @@
+body{
+    background-color: #9fddf1;
+}
+
+.result{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#button{
+    margin-top: 20px;
+}
+
+button{
+    background-color: #0e1461;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 15px;
+    border: 2px solid white;
+}

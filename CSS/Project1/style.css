@@ -1,0 +1,147 @@
+h1{
+    border: 5px solid red;
+}
+
+h1.cat{
+    background-color: black;
+}
+
+h1#dog{
+    color: white;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h1#mouse{
+    color: yellow;
+    border: 5px dashed blue;
+    width: 200px;
+    padding-right: 100px;
+}
+
+h1#bird{
+    color: lightgreen;
+    border: 5px ridge green;
+    width: 50vw;
+    text-align: right;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-right: 100px; /* to make it look like the photo in the project on github, this shouldn't be here. There is no right padding in the photo */
+    padding-bottom: 100px;
+}
+
+h1#horse{
+    color: orange;
+    margin: auto;
+    padding: 100px 0 0 100px;
+}
+
+img{
+    width: 100%;
+    margin: auto;
+    height: 100%;
+}
+
+div{
+    border: 5px solid red;
+    width: 25%;
+    height: 300px;
+    margin: auto;
+}
+
+p{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p.changeFont{
+    color: darkblue;
+}
+
+#p3{
+    color: red;
+}
+
+p.changeFont{
+    color: green;
+}
+
+h2#head1{
+    background-color: green;
+    font-size: 36px;
+    font-weight: bold;
+    width: 33%;
+    margin: left;
+}
+
+h2#head2{
+    background-color: yellow;
+    font-size: 36px;
+    font-weight: bold;
+    width: 33%;
+    margin: auto;
+    text-align: center;
+}
+
+h2#head3{
+    background-color: red;
+    width: 33%;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+}
+
+img.Task12{
+    width: 100%;
+    height: 100%;
+}
+
+div#div1{
+    border: red 2px solid;
+    background-color: blue;
+    width: 20%;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+div#div2{
+    border: red 2px solid;
+    background-color: green;
+    width: 20%;
+    margin: auto;
+    padding: 10px;
+}
+
+div#div3{
+    border: red 2px solid;
+    background-color: orange;
+    width: 20%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: 0;
+}
+/* 
+Task 1: white text black background red border
+Task 2: The content looks like Task 1's content because they are both have h1 tags
+Task 3: The content looks like Task 1's but not Task 2 because Task 2's specificity overrode Task 1's code
+Task 4: h1 bird and dog resize with the browser but h1 mouse doesn't. % and vw are variable amounts, px is fixed. 
+    it's important because the browser window affects how the content inside will be displayed
+Task 6: my fourth h1 was in the middle of the screen. Is the goal to center the text and/or change the content width?
+Task 8: 3. The image covers the entire page
+        6. the image now fits on the screen
+        9: border extends to the full edges of the screen
+        11. the image is shrinking with the div
+        16. the image is an inline element so the browser adds whitespace under the baseline to adjust other inline elements
+Task 11: 8. because the id is specific to the 3rd p tag
+        10. Nothing happens because the specificity of the previous p inputs is higher
+        12. it didn't change because ids have higher specificity than classes
+*/

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bitcoin App</title>
+</head>
+<body>
+    <div class="result">
+    <h2>Bitcoin Price App</h2>
+<!-- When to use GET vs POST -->
+<!-- Confidential data, dealing with images or large files, sending large amount of characters, avoid cacheing, : use POST -->
+    <form action="/getmoney" method="get">
+        <input type="radio" name="country" value="USD" checked>USD
+        <input type="radio" name="country" value="GBP">GPB
+        <input type="radio" name="country" value="EUR">EUR
+        <div id="button"><button type="submit">Get Price</button></div>
+    </form>
+    <h4>This is the current price:</h4>
+    <h1><%- symbol %><%= rate%> <%= currency %></h1>
+    <p>
+        <a href="https://old.coindesk.com/">Powered by CoinDesk</a>
+    </p>
+    </div>
+</body>
+</html>

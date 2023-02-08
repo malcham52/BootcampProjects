@@ -1,0 +1,13 @@
+body{
+    height: 100%;
+    font-size: 54px;
+    color: white;
+    background-image: url(./assets/background1.jpg);
+    margin-top: 40vh;
+}
+
+p{
+    margin: auto;
+    width: 900px;
+    text-align: center;
+}
