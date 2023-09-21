@@ -1,2 +1,3 @@
 # BootcampProjects
-Collection of projects created during my software developer bootcamp
+
+A collection of projects created during the ACC Software Bootcamp
